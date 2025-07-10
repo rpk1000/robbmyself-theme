@@ -5,7 +5,7 @@
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
  * @package robbmyself
- * @since 1.0.01
+ * @since 1.0.0
  */
 
 /**
