@@ -1,0 +1,103 @@
+/*
+Theme Name: RobbMyself
+Theme URI: https://robbmyself.com
+Description: Theme for RobbMyself based on Kadence.
+Author: Robb Keele
+Template: kadence
+Version: 1.0
+*/
+
+/* HEADER */
+.site-main-header-wrap {
+    border-top: 4px solid var(--global-palette1);
+}
+
+.brand img {
+    opacity: 0.75;
+}
+
+.site-branding a.brand {
+    gap: 0.75em !important;
+}
+
+.site-title, .footer-site-title {
+    font-family: Montserrat, sans-serif !important;
+    font-size: 1.5rem !important;
+    font-weight: 800 !important;
+}
+
+.site-title, .site-description, .footer-site-title, .footer-site-description {
+    line-height: 1 !important;
+    margin: 0 !important;
+}
+
+.site-description, .footer-site-description {
+    font-size: 16px !important;
+    font-weight: 400 !important;
+}
+
+/* MAIN MENU */
+.main-navigation .primary-menu-container > ul > li.menu-item {
+    margin-left: 0.5em;
+}
+
+.main-navigation .primary-menu-container > ul > li.menu-item > a {
+    border-radius: 1.75em;
+    padding-top: 0.25em !important;
+    padding-bottom: 0.25em !important;
+}
+
+/* FOOTER */
+.footer-brand {
+    gap: 1em !important;
+}
+
+    .footer-brand img {
+        opacity: 0.8;
+    }
+
+/* MAIN CONTENT PADDING */
+.home .entry-content-wrap {
+    padding: 0 2rem !important;
+}
+
+/* PAGE CONTENT */
+.content-width-narrow .content-container.site-container {
+    padding: 0;
+}
+
+/* IMAGES: GALLERIES, SLIDERS, CONTENT */
+.rm-gallery-img figure, .rm-content-img {
+    border: 1px solid var(--global-palette7);
+    border-radius: 8px;
+    padding: 4px
+}
+
+.rm-content-img-no-border img {
+    border-radius: 8px;
+}
+
+.wp-block-kadence-image img {
+    width: 100% !important;
+}
+
+.wp-block-kadence-advanced-form {
+    width: 100% !important;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (min-width: 1024px) {
+    /* CARDS */
+    .card-shadow {
+        -webkit-box-shadow: 0 2px 5px 0 rgba(61, 61, 61, 0.2);
+        -moz-box-shadow: 0 2px 5px 0 rgba(61,61,61,0.2);
+        box-shadow: 0 2px 5px 0 rgba(61, 61, 61, 0.2);
+    }
+}
+
+@media only screen and (max-width: 719px) {
+    /* FOOTER */
+    .footer-brand {
+        justify-content: center !important;
+    }
+}
