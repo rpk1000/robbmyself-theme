@@ -7,6 +7,10 @@ Template: kadence
 Version: 1.0
 */
 
+html {
+	scroll-behavior: smooth;
+}
+
 /* HEADER */
 .site-main-header-wrap {
     border-top: 4px solid var(--global-palette1);
